@@ -6,7 +6,7 @@ import android.os.Bundle
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.shopee__layout)
+        setContentView(R.layout.gojek__layout)
     }
 
     //Untuk menampilkan tampilan shopee
