@@ -9,6 +9,15 @@
     android:layout_gravity="center"
     android:layout_margin="5dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/promo"
+        android:textSize="20sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
 
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
