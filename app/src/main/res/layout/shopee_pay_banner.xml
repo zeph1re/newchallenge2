@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_qr_code_scanner"
+                android:backgroundTint="@android:color/transparent"
+                app:tint="@color/orange"
+                android:contentDescription="@string/qr_code"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/shopee_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wallet"
+                    android:background="@android:color/transparent"
+                    app:tint="@color/orange"
+                    android:contentDescription="@string/rp4_982_000"/>
+
+                <TextView
+                    android:id="@+id/saldo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/shopee_pay"
+                    android:text="@string/rp4_982_000"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_below="@+id/saldo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/isi_saldo_shopeepay"
+                    android:textSize="10sp"
+                    android:layout_toEndOf="@+id/shopee_pay"
+                    tools:ignore="SmallSp" />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp">
+
+                <ImageView
+                    android:id="@+id/shopee_coins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_shopee_coin"
+                    app:tint="@color/orange"
+                    android:contentDescription="@string/_928_300_coins"/>
+
+                <TextView
+                    android:id="@+id/saldo_shopee_coins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/shopee_coins"
+                    android:text="@string/_928_300_coins"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_below="@+id/saldo_shopee_coins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/isi_saldo_shopeepay"
+                    android:textSize="10sp"
+                    android:layout_toEndOf="@+id/shopee_coins"
+                    tools:ignore="SmallSp" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

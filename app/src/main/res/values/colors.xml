@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green"> #00AB14 </color>
+    <color name="grey"> #b7b7b7</color>
+    <color name="orange">#FF5F00</color>
+    <color name="blue">#229BD8</color>
+    <color name="blue_gopay">#0281A0</color>
+    <color name="red">#D0031A</color>
+</resources>

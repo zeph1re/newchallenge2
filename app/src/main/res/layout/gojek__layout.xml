@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/gojek_navbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/gojek_navbar"/>
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gojek_navbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/gojek_gopay_section" />
+                <include layout="@layout/gojek_menus_section"/>
+                <include layout="@layout/gojek_goclub_section"/>
+                <include layout="@layout/gojek_akses_cepat_section" />
+                <include layout="@layout/gojek_card_promo_section"/>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavGojek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            app:menu="@menu/bottom_nav_gojek"
+            app:itemTextColor="@color/black"
+            app:itemRippleColor="@color/grey"
+            />
+
+
+</RelativeLayout>
+
+
+
+

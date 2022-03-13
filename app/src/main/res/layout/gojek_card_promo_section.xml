@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="5dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/promo_card_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/gojek_promo_card_1"
+                android:background="@color/blue"
+                tools:ignore="DuplicateIds"
+                android:contentDescription="@string/makin_seru"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/makin_seru_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/promo_card_1"
+                android:text="@string/makin_seru"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/makin_seru_1"
+                android:text="@string/aktifkan_dan_sambungkan_gopay_amp_gopaylater_di_tokopedia"
+                android:layout_marginHorizontal="10dp"
+                android:paddingBottom="5dp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/promo_card_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/green"
+                android:src="@drawable/gojek_promo_card_2"
+                android:contentDescription="@string/makin_seru"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/makin_seru_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/promo_card_2"
+                android:text="@string/makin_seru"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/makin_seru_2"
+                android:text="@string/sambungin_akun_ke_tokopedia_banyakin_untung"
+                android:layout_marginHorizontal="10dp"
+                android:paddingBottom="5dp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/promo_card_3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/blue"
+                android:src="@drawable/gojek_promo_card_3"
+                android:contentDescription="@string/makin_seru"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/makin_seru_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/promo_card_3"
+                android:text="@string/makin_seru"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/makin_seru_3"
+                android:text="@string/promo_belanja_online_10_10_cashback_hingga_rp100_000"
+                android:layout_marginHorizontal="10dp"
+                android:paddingBottom="5dp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

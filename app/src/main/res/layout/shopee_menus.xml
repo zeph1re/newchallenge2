@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:rowCount="2"
+    android:layout_column="5">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_wallet"
+                app:tint="@color/orange"
+                android:gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/spaylater"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spaylater"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_smartphone"
+                app:tint="@color/blue"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/pulsa_tagihan_amp_hiburan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pulsa_tagihan_amp_hiburan"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shopping_basket"
+                app:tint="@color/red"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/shopee_supermarket"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shopee_supermarket"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shopping_basket"
+                app:tint="@color/red"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/shopee_mall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shopee_mall"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="0"
+            android:layout_column="4"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_peduli_lindungi"
+                app:tint="@color/blue"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/peduli_lindungi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/peduli_lindungi"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shopping_cart"
+                app:tint="@color/orange"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/shopeepay_sekitarmu"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shopeepay_sekitarmu"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_game_console"
+                app:tint="@color/blue"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/gratis_ongkir_amp_voucher"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gratis_ongkir_amp_voucher"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_cod"
+                app:tint="@color/orange"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/bayar_di_tempat"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bayar_di_tempat"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_food"
+                app:tint="@color/orange"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/shopee_food"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shopee_food"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_row="1"
+            android:layout_column="4"
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_1k"
+                app:tint="@color/blue"
+                android:layout_gravity="center"
+                android:background="@drawable/item_background"
+                android:contentDescription="@string/serba_seribu"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/serba_seribu"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </GridLayout>
+
+
+</HorizontalScrollView>

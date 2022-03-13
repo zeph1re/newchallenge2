@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="5dp"
+    android:layout_gravity="center_horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:backgroundTint="@color/blue_gopay"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+           <androidx.core.widget.NestedScrollView
+               android:id="@+id/saldo_gopay"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="10dp"
+               android:paddingStart="20dp"
+               tools:ignore="RtlSymmetry">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   >
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="160dp"
+                       android:layout_height="90dp"
+                       android:backgroundTint="@color/white"
+                       android:layout_marginTop="10dp"
+                       android:layout_marginBottom="10dp"
+                       app:cardCornerRadius="15dp">
+
+                       <RelativeLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical"
+                           android:layout_gravity="center_vertical"
+                           android:layout_marginStart="15dp">
+
+                           <ImageView
+                               android:id="@+id/gopay_icon"
+                               android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:src="@drawable/ic_wallet"
+                               app:tint="@color/blue"
+                               android:contentDescription="@string/gopay"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_toEndOf="@id/gopay_icon"
+                               android:text="@string/gopay"
+                               android:textSize="20sp"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:id="@+id/text_saldo"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/rp5_379"
+                               android:textStyle="bold"
+                               android:textSize="25sp"
+                               android:layout_below="@id/gopay_icon"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/klik_amp_cek_riwayat"
+                               android:textSize="15sp"
+                               android:textColor="@color/green"
+                               android:layout_below="@id/text_saldo"/>
+
+                       </RelativeLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="150dp"
+                       android:layout_height="90dp"
+                       android:backgroundTint="@color/white"
+                       android:layout_marginBottom="10dp"
+                       app:cardCornerRadius="15dp">
+
+                       <RelativeLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical"
+                           android:layout_gravity="center_vertical"
+                           android:layout_marginStart="15dp">
+
+                           <ImageView
+                               android:id="@+id/gopay_icon_1"
+                               android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:src="@drawable/ic_wallet"
+                               app:tint="@color/blue"
+                               android:contentDescription="@string/gopay"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_toEndOf="@id/gopay_icon_1"
+                               android:text="@string/gopay"
+                               android:textSize="20sp"
+                               android:textStyle="bold"/>
+
+                           <TextView
+                               android:id="@+id/text_saldo_1"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/rp5_379"
+                               android:textStyle="bold"
+                               android:textSize="25sp"
+                               android:layout_below="@id/gopay_icon_1"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/klik_amp_cek_riwayat"
+                               android:textSize="15sp"
+                               android:textColor="@color/green"
+                               android:layout_below="@id/text_saldo_1"/>
+
+                       </RelativeLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="160dp"
+                       android:layout_height="90dp"
+                       android:backgroundTint="@color/white"
+                       android:layout_marginTop="10dp"
+                       android:layout_marginBottom="10dp"
+                       app:cardCornerRadius="15dp">
+
+                       <RelativeLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical"
+                           android:layout_gravity="center_vertical"
+                           android:layout_marginStart="15dp">
+
+                           <ImageView
+                               android:id="@+id/gopay_icon_2"
+                               android:layout_width="30dp"
+                               android:layout_height="30dp"
+                               android:src="@drawable/ic_wallet"
+                               app:tint="@color/blue"
+                               android:contentDescription="@string/gopay"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_toEndOf="@id/gopay_icon_2"
+                               android:text="@string/gopay"
+                               android:textSize="20sp"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:id="@+id/text_saldo_2"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/rp5_379"
+                               android:textStyle="bold"
+                               android:textSize="25sp"
+                               android:layout_below="@id/gopay_icon_2"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="@string/klik_amp_cek_riwayat"
+                               android:textSize="15sp"
+                               android:textColor="@color/green"
+                               android:layout_below="@id/text_saldo_2"/>
+
+                       </RelativeLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+
+
+               </LinearLayout>
+
+           </androidx.core.widget.NestedScrollView>
+
+            <GridLayout
+                android:layout_toEndOf="@+id/saldo_gopay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:rowCount="1"
+                android:columnCount="3">
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_arrow_upward"
+                        android:background="@drawable/item_background"
+                        app:tint="@color/blue_gopay"
+                        android:layout_marginBottom="10dp"
+                        android:contentDescription="@string/bayar"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bayar"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_add"
+                        android:background="@drawable/item_background"
+                        app:tint="@color/blue_gopay"
+                        android:layout_marginBottom="10dp"
+                        android:contentDescription="@string/top_up"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/top_up"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="90dp"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_explore"
+                        android:background="@drawable/item_background"
+                        app:tint="@color/blue_gopay"
+                        android:layout_marginBottom="10dp"
+                        android:contentDescription="@string/eksplor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/eksplor"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+            </GridLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

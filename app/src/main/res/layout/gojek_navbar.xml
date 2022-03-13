@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/green"
+    android:gravity="center">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp">
+
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:queryBackground="@android:color/transparent"
+            android:queryHint="Cari layanan, makanan, dan tujuan"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="20dp"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_account_circle"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/profile"/>
+
+</LinearLayout>

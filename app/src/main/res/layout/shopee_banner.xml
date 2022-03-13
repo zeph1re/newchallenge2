@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/orange">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/shopee_banner"
+            android:backgroundTint="@color/orange"
+            android:contentDescription="@string/banner"
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/shopee_banner"
+            android:backgroundTint="@color/orange"
+            android:contentDescription="@string/banner"
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/shopee_banner"
+            android:backgroundTint="@color/orange"
+            android:contentDescription="@string/banner"
+            />
+
+
+    </LinearLayout>
+
+
+
+</HorizontalScrollView>
